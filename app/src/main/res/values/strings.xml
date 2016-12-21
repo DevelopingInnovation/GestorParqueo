@@ -1,9 +1,25 @@
 <resources>
-    <string name="app_name">GestorParqueos</string>
+    <string name="app_name">Gestor Parqueos</string>
     <string name="txt_user_name">Nombre usuario</string>
     <string name="txt_email">Email</string>
     <string name="txt_password">Contraseña</string>
     <string name="btn_accept_login">Ingresar</string>
     <string name="txt_info_registry">¿No tienes cuenta?</string>
     <string name="btn_accept">Registrarse</string>
+    <string name="item_user">Usuario</string>
+    <string name="item_favorites">Favoritos</string>
+    <string name="item_car">Vehículo</string>
+    <string name="lbl_welcome">¡Bienvenido!</string>
+    <string name="lbl_name">Developing Innovation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lbl_name_create">Nombre completo</string>
+    <string name="lbl_name_user_create">Nombre usuario</string>
+    <string name="lbl_email_create">Correo electrónico</string>
+    <string name="lbl_dateBir_create">Fecha nacimiento</string>
+    <string name="lbl_password_create">Contraseña</string>
+    <string name="lbl_dni_create">Cédula</string>
+    <string name="btn_update">Actualizar</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

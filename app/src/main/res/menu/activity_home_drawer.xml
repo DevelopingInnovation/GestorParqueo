@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/user_48"
+            android:title="@string/item_user" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/star_52"
+            android:title="@string/item_favorites" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/car_rental_filled_50"
+            android:title="@string/item_car" />
+
+    </group>
+
+
+</menu>
