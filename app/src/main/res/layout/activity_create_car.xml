@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.developinginnovation.gestorparqueos.UpdateUserActivity">
+    tools:context="com.developinginnovation.gestorparqueos.CreateCarActivity">
 
     <LinearLayout
         android:id="@+id/area_name"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/user_48" />
+            android:src="@drawable/counter_filled_50" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_name"
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/lbl_name_create"
+                android:hint="@string/lbl_placa_car"
                 android:inputType="text"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/gender_neutral_user_52" />
+            android:src="@drawable/bag_brand_50" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_user"
@@ -66,7 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/lbl_name_user_create"
+                android:hint="@string/lbl_brand_car"
                 android:inputType="text"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
@@ -85,7 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/message_filled_64" />
+            android:src="@drawable/tesla_model_x_64" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_email"
@@ -98,17 +98,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/lbl_email_create"
+                android:hint="@string/lbl_model_car"
                 android:inputType="textEmailAddress"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/area_card"
+        android:layout_below="@+id/area_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/car_rental_50" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp">
+
+            <EditText
+                android:id="@+id/txtCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/lbl_style_car"
+                android:inputType="text|number"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/area_password"
-        android:layout_below="@+id/area_email"
+        android:layout_below="@+id/area_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -118,7 +149,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/password_48" />
+            android:src="@drawable/fill_color_50" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_password"
@@ -131,12 +162,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/lbl_password_create"
+                android:hint="@string/lbl_color_car"
                 android:inputType="textPassword"
                 android:singleLine="true" />
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/bottom_bar"
@@ -147,13 +179,13 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_accept_update_user"
+            android:id="@+id/btn_accept_car"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/colorPrimary"
             android:drawableLeft="@drawable/create_new_52"
-            android:text="@string/btn_update"
+            android:text="@string/btn_accept_car"
             android:textColor="@android:color/white" />
     </LinearLayout>
 

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class CreateUserActivity extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class CreateUserActivity extends AppCompatActivity {
         btn_accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(CreateUserActivity.this, "Registro con éxito", Toast.LENGTH_LONG).show();
                 Intent registry = new Intent(CreateUserActivity.this,HomeActivity.class);
                 startActivity(registry);
             }

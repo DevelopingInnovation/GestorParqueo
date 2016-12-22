@@ -6,9 +6,11 @@
     <string name="btn_accept_login">Ingresar</string>
     <string name="txt_info_registry">¿No tienes cuenta?</string>
     <string name="btn_accept">Registrarse</string>
-    <string name="item_user">Usuario</string>
+    <string name="item_user_update">Actualizar usuario</string>
     <string name="item_favorites">Favoritos</string>
-    <string name="item_car">Vehículo</string>
+    <string name="item_car_create">Registar vehículo</string>
+    <string name="item_car_update">Actualizar vehículo</string>
+    <string name="item_car_delete">Eliminar vehículo</string>
     <string name="lbl_welcome">¡Bienvenido!</string>
     <string name="lbl_name">Developing Innovation</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -20,9 +22,23 @@
     <string name="lbl_password_create">Contraseña</string>
     <string name="lbl_dni_create">Cédula</string>
     <string name="btn_update">Actualizar</string>
-
+    <string name="lbl_placa_car">Placa</string>
+    <string name="lbl_brand_car">Marca</string>
+    <string name="lbl_model_car">Modelo</string>
+    <string name="lbl_style_car">Estilo</string>
+    <string name="lbl_color_car">Color</string>
+    <string name="btn_accept_car">Aceptar</string>
+    <string name="spinner_title">Placas</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_home">Gestor parqueo</string>
+
+
+    <string-array name="placas_array">
+        <item>218934</item>
+        <item>786543</item>
+        <item>889977</item>
+        <item>345678</item>
+    </string-array>
 
 
 </resources>

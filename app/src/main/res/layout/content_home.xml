@@ -12,4 +12,6 @@
     tools:context="com.developinginnovation.gestorparqueos.HomeActivity"
     tools:showIn="@layout/app_bar_home">
 
+
+
 </RelativeLayout>

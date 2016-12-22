@@ -20,7 +20,10 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CreateUserActivity" />
-        <activity android:name=".UpdateUserActivity"></activity>
+        <activity android:name=".UpdateUserActivity" />
+        <activity android:name=".CreateCarActivity" />
+        <activity android:name=".UpdateCarActivity" />
+        <activity android:name=".DeleteCarActivity"></activity>
     </application>
 
 </manifest>
